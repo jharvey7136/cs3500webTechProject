@@ -30,10 +30,10 @@
                 <div class="nav">
                     <ul>
                         <li><a class="active" href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Park layout</a></li>
-                        <li><a href="#">Live Stream</a></li>
-                        <li><a href="#">Waiver</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="park.php">Park layout</a></li>
+                        <li><a href="stream.php">Live Stream</a></li>
+                        <li><a href="waiver.html">Waiver</a></li>
                     </ul>
 
                 </div>
@@ -42,6 +42,7 @@
     </div>
     
 <container> 
+
     
     <div id="wrapper">
 
