@@ -34,6 +34,7 @@
                         <li><a href="park.php">Park layout</a></li>
                         <li><a href="stream.php">Live Stream</a></li>
                         <li><a href="waiver.html">Waiver</a></li>
+                        <li><a href="coupons.html">Coupons</a></li>
                     </ul>
 
                 </div>

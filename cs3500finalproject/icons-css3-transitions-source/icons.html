@@ -21,8 +21,8 @@
     <div class="container">
 
       <div class="component">
-        <a href="#" class="icon icon-slide facebook">facebook</a>
-        <a href="#" class="icon icon-slide twitter">twitter</a>
+        <a href="http://www.facebook.com/KZooSkateZooInc" class="icon icon-slide facebook">facebook</a>
+        <a href="https://twitter.com/sk8zoo" class="icon icon-slide twitter">twitter</a>
         <a href="#" class="icon icon-slide googleplus">google+</a>
         <a href="#" class="icon icon-slide github">github</a>
         <a href="#" class="icon icon-slide rss">rss</a>

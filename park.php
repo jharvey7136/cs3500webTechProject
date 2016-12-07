@@ -6,10 +6,20 @@
   
   
     <head> 
+    	
+    
+    
         <link rel="stylesheet" type="text/css" href="style/style.css">
         <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/main.css">
         <title>K-zoo Skate Zoo skatepark </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="galleria/galleria-1.4.7.min.js"></script> 
+        
+        <style>
+    .galleria{ width: 1200px; height: 700px; padding-top:150px; display: block; alignment-adjust:central; margin:auto  }
+    </style> 
 
     </head>
     
@@ -33,6 +43,7 @@
                         <li><a class="active" href="#">Park layout</a></li>
                         <li><a href="stream.php">Live Stream</a></li>
                         <li><a href="waiver.html">Waiver</a></li>
+                        <li><a href="coupons.html">Coupons</a></li>
                     </ul>
 
                 </div>
@@ -40,20 +51,49 @@
             </div>
     </div>
     
+    <div class="galleria" align="center" >
+    <img src="images/cjstale.jpg">
+    <img src="images/coacheric.jpg">
+    <img src="images/lostguy.jpg">
+    <img src="images/dunbarandrecht.jpg">
+    <img src="images/pedro fsidehip.jpg">
+    <img src="images/tyler bluntflip.jpg">
+    <img src="images/pedroskys.jpg">
+    <img src="images/spine finished 2005.jpg">
+	</div>
     
     
-    <container>
+    <script>
+(function() { 
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+	Galleria.configure({
+		transition: 'fade',
+    	imageCrop: false, 
+		lightbox: true,
+		transitionSpeed: 100,
+		
+		
+		});
+	
+	
+	
+    Galleria.run('.galleria');
+}());
+
+    </script>
     
     
     
     
     
     
-    </container>
+    
+
   
   
-  
-  
+        
+    <?php include("footer.html"); ?>
+
   
   
   
