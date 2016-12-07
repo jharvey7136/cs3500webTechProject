@@ -50,5 +50,8 @@
 </div>
 
 </container>
+    <?php include("info.html"); ?>
+    <?php include("footer.html"); ?>
+    
 </body>
 </html>

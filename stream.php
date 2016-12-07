@@ -45,13 +45,14 @@
     <container>
     
     
-    
+    <iframe width="480" height="270" src="http://www.ustream.tv/embed/10714258?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe><a href="https://www.ustream.tv/product/ustream-pro-broadcasting-video-platform" title="Broadcast live with Ustream" style="padding: 2px 0px 4px; width: 400px; background: #ffffff; display: block; color: #000000; font-weight: normal; font-size: 10px; text-decoration: underline; text-align: left;" target="_blank">Broadcast Live</a>
     
     
     
     </container>
   
-  
+    <?php include("info.html"); ?>
+    <?php include("footer.html"); ?>
   
   
   
